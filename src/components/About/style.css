@@ -12,6 +12,12 @@
 .card {
     margin: 30px;
 }
+
+.card-img-top {
+    width: 100px;
+    height: 400px;
+}
+
 .about-header, .bio-header {
     text-align: center;
     padding-bottom: 40px;

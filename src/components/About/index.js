@@ -2,7 +2,10 @@ import React, { Component } from "react";
 import classnames from "classnames";
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
-
+import joe from './img/joe.jpg';
+import simon from './img/simon.jpg';
+import sunny from './img/sunny.jpg';
+import kevin from './img/kevin.jpg';
 import "./style.css";
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -22,7 +25,7 @@ export default class About extends Component {
 					<h2 className='bio-header'>Who we are</h2>
 					<CardGroup>
 						<Card>
-							<Card.Img variant="top" src="/about/img/joseph.jpg" />
+							<Card.Img variant="top" src={joe} />
 							<Card.Body>
 								<Card.Title>Joseph Zhang</Card.Title>
 								<Card.Text>
@@ -31,7 +34,7 @@ export default class About extends Component {
 							</Card.Body>
 						</Card>
 						<Card>
-							<Card.Img variant="top" src="https://drive.google.com/file/d/1-OPtOP9g84nXCFzeAII_Gz7tOpoW7_i-/preview" />
+							<Card.Img variant="top" src={simon} />
 							<Card.Body>
 								<Card.Title>Simon Bang</Card.Title>
 								<Card.Text>
@@ -42,7 +45,7 @@ export default class About extends Component {
 					</CardGroup>
 					<CardGroup>
 						<Card>
-							<Card.Img variant="top" src="holder.js/100px160" />
+							<Card.Img variant="top" src={sunny} />
 							<Card.Body>
 								<Card.Title>Sunwoo Kang</Card.Title>
 								<Card.Text>
@@ -51,7 +54,7 @@ export default class About extends Component {
 							</Card.Body>
 						</Card>
 						<Card>
-							<Card.Img variant="top" src="holder.js/100px160" />
+							<Card.Img variant="top" src={kevin}/>
 							<Card.Body>
 								<Card.Title>Kevin Xu</Card.Title>
 								<Card.Text>
